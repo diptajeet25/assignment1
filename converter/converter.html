@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="shortcut icon" href="1-removebg-preview.png" type="image/x-icon">
+       <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body  class="bg-blue-100">
+    
+  <nav class="w-full bg-red-600 flex flex-col md:flex-row items-center justify-between px-4 md:px-16 py-3 space-y-2 md:space-y-0">
+
+    <div class="flex items-center space-x-2">
+      <img src="1-removebg-preview.png" alt="logo" class="h-12">
+      <label class="text-xl md:text-2xl text-white">Converter</label>
+    </div>
+    <div class="flex space-x-6 text-white text-lg md:text-2xl">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 m-32">
+    <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="temp.png" alt="Temperature" width="80px">
+<label class="text-2xl mt-2">Temperature</label>
+    </div>
+    <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="time.png" alt="time" width="80px">
+<label class="text-2xl mt-2">Time</label>
+    </div>
+    <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="speed.png" alt="speed" width="80px">
+<label class="text-2xl mt-2">Speed</label>
+    </div>
+    <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="length-removebg-preview.png" alt="length" width="80px">
+<label class="text-2xl mt-2">length</label>
+    </div>
+    <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="currency-removebg-preview.png" alt="currency" width="80px">
+<label class="text-2xl mt-2">Currency</label>
+    </div>
+    <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="weight-removebg-preview.png" alt="Weight" width="80px">
+<label class="text-2xl mt-2">Weight</label>
+    </div>
+        <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="data.png" alt="Data" width="80px">
+<label class="text-2xl mt-2">Data</label>
+    </div>
+        <div class="flex flex-col justify-center items-center rounded bg-blue-400 py-4 hover:bg-blue-600 hover:scale-105 transition duration-300 ease-in-out active:bg-blue-800" >
+<img src="frequency (2).png" alt="frequency" width="80px">
+<label class="text-2xl mt-2">Frequency</label>
+    </div>
+</div>
+<footer class="text-center bg-gray-200 text-gray-700 py-4">
+  <p id="copyright"></p>
+</footer>
+
+<script>
+  const year = new Date().getFullYear();
+  document.getElementById("copyright").innerText = `© ${year} - All rights reserved by DiptaJeet Roy`;
+</script>
+
+</body>
+</html>
